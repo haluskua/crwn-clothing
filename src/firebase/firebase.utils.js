@@ -10,8 +10,8 @@ const config = {
   projectId: "crwn-db-68df6",
   storageBucket: "crwn-db-68df6.appspot.com",
   messagingSenderId: "290525787968",
-  appId: "1:290525787968:web:728fdaccdc3685db366ca5",
-  measurementId: "G-Y26MDXME9R",
+  appId: "1:290525787968:web:e378ccb0ddf992eb366ca5",
+  measurementId: "G-CHR0FR8HX6",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -39,6 +39,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   }
   return userRef;
 };
+
 
 firebase.initializeApp(config);
 
