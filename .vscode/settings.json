@@ -1,3 +1,5 @@
 {
-    "editor.fontFamily": "Fira Code Retina, Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Fira Code Retina, Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13.5,
+    "editor.tabSize": 4.6
 }
