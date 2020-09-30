@@ -1,9 +1,4 @@
-
-
-
-
 //data
-
 
 const SHOP_DATA = [
   {

@@ -9,7 +9,7 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
+  font-family: "Open Sans Condensed";
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -31,19 +31,18 @@
       border: none;
     }
   }
-    &.inverted {
-      background-color: black;
-      color: white;
-      border: px solid black;
+  &.inverted {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(73, 65, 65);
+    border-radius: 2.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     &:hover {
       background-color: black;
       color: white;
       border: none;
     }
-      
-    }
-
-
-
-
+  }
 }
